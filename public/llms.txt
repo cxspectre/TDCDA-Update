@@ -1,0 +1,66 @@
+# TDC Digital Advisory
+
+> Independent enterprise advisory for AI governance, digital transformation,
+> SAP S/4HANA delivery and test management. Senior-led by Tanja Drefke,
+> Transformation Advisor and Executive Delivery Lead.
+
+TDC Digital Advisory LLC is a Wyoming limited liability company serving
+enterprise clients under complex regulatory obligations, from board-level
+strategy through hands-on design, build and implementation. Engagements are
+led personally by the founder rather than staffed to a delivery team.
+
+## Three pillars
+
+- **Advisory & Transformation** — strategy, AI governance, enterprise
+  transformation and interim executive advisory.
+- **Delivery & Engineering** — implementation across SAP, cloud and digital
+  products, supported by test management and automation.
+- **Intelligence Lab** — independent applied research, currently developing a
+  digital health platform that brings personal health information,
+  observations and goals into one structured view.
+
+## Practices
+
+- **AI Governance & Regulatory Readiness** — AI lifecycle governance, risk and
+  controls, human oversight.
+- **Strategic & Digital Advisory** — digital and AI strategy, due diligence,
+  portfolio governance.
+- **Enterprise Transformation** — operating model design, programme and PMO
+  leadership, change and adoption.
+- **Digital Transformation Services** — SAP S/4HANA, cloud and integration,
+  rollout readiness.
+- **Test Management & Automation** — corporate test strategy, SIT and UAT,
+  automation roadmaps.
+- **Digital Product Engineering** — websites, web applications and first usable
+  versions of digital products.
+
+## The 4D approach
+
+1. **Discover** — what is actually blocking progress; a prioritised risk and
+   readiness assessment.
+2. **Design** — who does what, in which order; an agreed roadmap with
+   responsibilities and dependencies.
+3. **Deliver** — what proves readiness to go live; test results, a rehearsed
+   cutover plan and remaining risks.
+4. **Drive** — whether the team can run it without TDC; named operational
+   owners and a knowledge transfer plan.
+
+## Pages
+
+- [Home](https://www.tdc-advisory.com/): pillars, practices, the 4D approach,
+  Intelligence Lab, founder profile and contact.
+- [Imprint & Privacy Policy](https://www.tdc-advisory.com/imprint): company
+  information, legal notice and privacy policy.
+
+## Contact
+
+- Email: tanja@tdc-advisory.com
+- LinkedIn: https://linkedin.com/in/tanjadrefke
+- Registered office: 30 N Gould St, Ste R, Sheridan, WY 82801, USA
+
+## Notes
+
+- Development partner for suitable build projects: Veyago
+  (https://www.veyago.cloud). TDC leads advisory, requirements and
+  coordination; Veyago performs technical development.
+- Languages: German and English.
