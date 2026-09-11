@@ -314,3 +314,20 @@ h1,h2,h3{font-weight:400;letter-spacing:-.05em}em{font-weight:inherit}.brand>spa
 .footer-partner a:hover{color:#8b7958;border-bottom-color:#b7a685}
 .footer-partner a span{margin-left:4px;color:#96825d}
 @media(max-width:620px){.footer-partner{margin-top:18px}.footer-partner a{font-size:15px;padding:6px 0}}
+
+/* Half-screen / tablet widths kept the stacked layout, so the practice menu
+   scrolled away and the active practice was no longer visible. Restore the
+   desktop behaviour: menu pinned beside the panels, highlighting as you scroll.
+   Placed last so it wins over the earlier max-width:900px stacking rules. */
+@media(min-width:621px) and (max-width:900px){
+ .expertise-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr);gap:5%;align-items:start}
+ .expertise-intro{position:sticky;top:86px;padding:0 0 20px}
+ .expertise-intro[data-sticky-fit=false]{position:relative;top:0}
+ .expertise-intro nav{display:block;margin-top:14px}
+ .expertise-intro nav .practice-nav-item{width:100%}
+ .expertise-intro nav a{font-size:12px;padding:9px 0;gap:10px;min-height:0;align-items:flex-start}
+ .expertise-intro nav a>span:first-child{padding-top:1px}
+ .expertise-intro .practice-link-title{line-height:1.35}
+ .expertise-intro .practice-group{padding:14px 0 5px}
+ .expertise-panel{min-height:0;padding:36px 0 46px}
+}
