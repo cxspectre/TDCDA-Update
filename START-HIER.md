@@ -78,13 +78,6 @@ Hosting-Anbieter muss vorab geklaert werden, ob diese Laufzeit unterstuetzt wird
 oder ob ein angepasster Build bzw. ein statischer Export benoetigt wird.
 Ein statischer Export ist in diesem Paket noch nicht konfiguriert oder getestet.
 
-Die Datei .openai/hosting.json gehoert zur bisherigen Sites-Projektzuordnung und
-wird von der Build-Konfiguration eingelesen. Sie ist kein Zugangsschluessel und
-ersetzt keine Konfiguration fuer einen anderen Hosting-Anbieter.
-
-Die bisherige private Vorschau bleibt hier erreichbar:
-https://tdc-advisory-concept.tanja-drefke.chatgpt.site
-
 Fuer die Umstellung werden der Hosting-Anbieter und die Art des bestehenden
 Webhostings benoetigt. Zugangsdaten bitte nicht in den Quellcode schreiben.
 Domain und produktive Website wurden durch diesen Export nicht geaendert.
