@@ -46,3 +46,6 @@ next-env.d.ts
 
 # typescript
 *.tsbuildinfo
+
+# Claude Code session state (local only)
+.claude/.inhand/
