@@ -2,8 +2,8 @@
 
 Marketing site for TDC Digital Advisory LLC — https://www.tdc-advisory.com
 
-React 19 + TypeScript + Tailwind CSS 4, built with vinext (Next-compatible
-app router on Vite) and served from a Cloudflare Worker.
+Next.js 16 (app router) + React 19 + TypeScript + Tailwind CSS 4.
+Every route prerenders as static content.
 
 ## Prerequisites
 
@@ -22,8 +22,8 @@ The dev server prints its address (default http://localhost:5173).
 ## Build and preview the production bundle
 
 ```sh
-pnpm build   # emits dist/ (client assets + Worker bundle)
-pnpm start   # serves dist/ locally through Wrangler
+pnpm build   # emits .next/
+pnpm start   # serves the production build locally
 ```
 
 ## Layout
@@ -57,9 +57,10 @@ node scripts/generate-og-image.mjs
 
 ## Deployment
 
-The build targets the Cloudflare Workers runtime. `pnpm build` writes the Worker
-bundle and its configuration to `dist/`, ready for `wrangler deploy` or a
-Cloudflare Workers Git integration.
+Deployed on Vercel from `main`. Vercel detects Next.js and runs `pnpm build`;
+no additional configuration is required.
 
-Generated `dist/`, `.wrangler/` and `.sites-runtime/` are disposable and ignored
-by Git.
+All routes are static, so the site is served from the edge cache.
+
+Generated `.next/`, `dist/`, `.wrangler/` and `.sites-runtime/` are disposable
+and ignored by Git.
