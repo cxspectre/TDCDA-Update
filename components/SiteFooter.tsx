@@ -61,14 +61,14 @@ export function SiteFooter({ hrefPrefix = '', showEmail = true }: SiteFooterProp
             )}
             <li>
               <a href="https://linkedin.com/in/tanjadrefke" target="_blank" rel="noreferrer">
-                LinkedIn <span aria-hidden="true">↗</span>
+                LinkedIn <span aria-hidden="true">{'\u2197\uFE0E'}</span>
               </a>
             </li>
           </ul>
           <div className="footer-partner">
             <p>Connect with our partner</p>
             <a href={VEYAGO_URL} target="_blank" rel="noreferrer">
-              Veyago <span aria-hidden="true">↗</span>
+              Veyago <span aria-hidden="true">{'\u2197\uFE0E'}</span>
             </a>
           </div>
         </div>

@@ -65,7 +65,7 @@ export default function ImprintPage() {
           <a href="/#profile">Tanja Drefke</a>
         </nav>
         <a className="header-contact" href="/#conversation">
-          Let’s talk <span aria-hidden="true">↗</span>
+          Let’s talk <span aria-hidden="true">{'\u2197\uFE0E'}</span>
         </a>
       </header>
 
@@ -340,7 +340,7 @@ export default function ImprintPage() {
 
           <p className="legal-back">
             <a className="underlined" href="/">
-              <span aria-hidden="true">←</span> Back to home
+              <span aria-hidden="true">{'\u2190\uFE0E'}</span> Back to home
             </a>
           </p>
         </div>
